@@ -258,6 +258,24 @@ a {
   letter-spacing: 0.5px;
 }
 
+@media (max-width: 768px) {
+
+  .hero {
+    min-height: auto;
+    align-items: flex-start;
+    padding: 20px 6% 40px;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+}
+
 /* FEATURE STRIP */
 
 .feature-strip {
